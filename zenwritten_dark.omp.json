@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#608B4E",  // Зеленый из zenwritten_dark
+          "style": "plain",
+          "template": "❯",         // U+276F (жирная стрелка)
+          "type": "text"
+        },
+        {
+          "foreground": "#D4D4D4",  // Красный из zenwritten_dark
+          "properties": {
+            "branch_icon": ""
+          },
+          "style": "plain",
+          "template": " <#F44747>git:(</>{{ .HEAD }}<#F44747>)</>",
+          "type": "git"
+        },
+        {
+          "foreground": "#D4D4D4",  // Основной текст (foreground)
+          "properties": {
+            "style": "folder"
+          },
+          "style": "plain",
+          "template": " {{ .Path }}",
+          "type": "path"
+        },
+        {
+          "foreground": "#E5C07B",  // Жёлтый из zenwritten_dark
+          "style": "plain",
+          "template": " #",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 3
+}
