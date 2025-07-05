@@ -16,7 +16,7 @@
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " <#F44747>git:(</>{{ .HEAD }}<#F44747>)</>",
+          "template": " <#F48771>git:(</>{{ .HEAD }}<#F48771>)</>",
           "type": "git"
         },
         {
