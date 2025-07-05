@@ -5,13 +5,13 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#608B4E",  // Зеленый из zenwritten_dark
+          "foreground": "#608B4E",
           "style": "plain",
-          "template": "❯",         // U+276F (жирная стрелка)
+          "template": "❯",
           "type": "text"
         },
         {
-          "foreground": "#D4D4D4",  // Красный из zenwritten_dark
+          "foreground": "#D4D4D4",
           "properties": {
             "branch_icon": ""
           },
@@ -20,7 +20,7 @@
           "type": "git"
         },
         {
-          "foreground": "#D4D4D4",  // Основной текст (foreground)
+          "foreground": "#D4D4D4",
           "properties": {
             "style": "folder"
           },
@@ -29,7 +29,7 @@
           "type": "path"
         },
         {
-          "foreground": "#E5C07B",  // Жёлтый из zenwritten_dark
+          "foreground": "#E5C07B",
           "style": "plain",
           "template": " #",
           "type": "text"
