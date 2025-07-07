@@ -11,13 +11,10 @@
           "type": "text"
         },
         {
-          "foreground": "#D4D4D4",
-          "properties": {
-            "branch_icon": ""
-          },
+          "foreground": "#E5C07B",
           "style": "plain",
-          "template": " <#F48771>git:(</>{{ .HEAD }}<#F48771>)</>",
-          "type": "git"
+          "template": " {{ .UserName }}",
+          "type": "session"
         },
         {
           "foreground": "#D4D4D4",
@@ -25,8 +22,17 @@
             "style": "folder"
           },
           "style": "plain",
-          "template": " {{ .Path }}",
+          "template": " <#F48771>in</> {{ .Path }}",
           "type": "path"
+        },
+        {
+          "foreground": "#D4D4D4",
+          "properties": {
+            "branch_icon": ""
+          },
+          "style": "plain",
+          "template": " <#F48771>git:(</>{{ .HEAD }}<#F48771>)</>",
+          "type": "git"
         },
         {
           "foreground": "#E5C07B",
